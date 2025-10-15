@@ -23,7 +23,8 @@ config = {
         "8397": "foobar17",
         "8398": "foobar18",
         "8399": "foobar19",
-        "8400": "foobar20"
+        "8400": "foobar20",
+        "8402": "foobar21",
     },
     "timeout": 300,
     "method": "chacha20-ietf-poly1305"

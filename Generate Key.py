@@ -12,6 +12,7 @@ config = {
         "8385": "foobar5",
         "8386": "foobar6",
         "8387": "foobar7",
+        "8388": "foobar8",
         "8389": "foobar9",
         "8390": "foobar10",
         "8391": "foobar11",
@@ -23,12 +24,41 @@ config = {
         "8397": "foobar17",
         "8398": "foobar18",
         "8399": "foobar19",
-        "8400": "foobar20"
+        "8400": "foobar20",
+        "8401": "foobar21",
+        "8402": "foobar22",
+        "8403": "foobar23",
+        "8404": "foobar24",
+        "8405": "foobar25",
+        "8406": "foobar26",
+        "8407": "foobar27",
+        "8408": "foobar28",
+        "8409": "foobar29",
+        "8410": "foobar30",
+        "8411": "foobar31",
+        "8412": "foobar32",
+        "8413": "foobar33",
+        "8414": "foobar34",
+        "8415": "foobar35",
+        "8416": "foobar36",
+        "8417": "foobar37",
+        "8418": "foobar38",
+        "8419": "foobar39",
+        "8420": "foobar40",
+        "8421": "foobar41",
+        "8422": "foobar42",
+        "8423": "foobar43",
+        "8424": "foobar44",
+        "8425": "foobar45",
+        "8426": "foobar46",
+        "8427": "foobar47",
+        "8428": "foobar48",
+        "8429": "foobar49",
+        "8430": "foobar50",
     },
     "timeout": 300,
     "method": "chacha20-ietf-poly1305"
 }
-
 # 🔧 Replace with your actual server IP or domain
 SERVER = "ss.quickaccessmm.shop"   # e.g. "167.172.76.216"
 METHOD = config["method"]
@@ -49,3 +79,30 @@ with open("/home/welcome/E/Project/Python/Outline-Server-Data/outline_keys.json"
     json.dump(keys, f, indent=4)
 
 print("✅ outline_keys.json created successfully!")
+
+
+# [Unit]
+# Description=Shadowsocks Server
+# After=network.target
+
+# [Service]
+# ExecStart=/usr/bin/env bash -c 'sudo /snap/bin/shadowsocks.ssserver -c /var/snap/shadowsocks/common/shadowsocks.json'
+# Restart=always
+# User=root
+# WorkingDirectory=/root
+
+# [Install]
+# WantedBy=multi-user.target
+
+# [Unit]
+# Description=Shadowsocks Server
+# After=network.target
+
+# [Service]
+# ExecStart=/snap/bin/shadowsocks.ssserver -c /var/snap/shadowsocks/comm>
+# Restart=always
+# User=root
+# WorkingDirectory=/root
+
+# [Install]
+# WantedBy=multi-user.target

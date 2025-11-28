@@ -81,28 +81,3 @@ with open("/home/welcome/E/Project/Python/Outline-Server-Data/outline_keys.json"
 print("✅ outline_keys.json created successfully!")
 
 
-# [Unit]
-# Description=Shadowsocks Server
-# After=network.target
-
-# [Service]
-# ExecStart=/usr/bin/env bash -c 'sudo /snap/bin/shadowsocks.ssserver -c /var/snap/shadowsocks/common/shadowsocks.json'
-# Restart=always
-# User=root
-# WorkingDirectory=/root
-
-# [Install]
-# WantedBy=multi-user.target
-
-# [Unit]
-# Description=Shadowsocks Server
-# After=network.target
-
-# [Service]
-# ExecStart=/snap/bin/shadowsocks.ssserver -c /var/snap/shadowsocks/comm>
-# Restart=always
-# User=root
-# WorkingDirectory=/root
-
-# [Install]
-# WantedBy=multi-user.target

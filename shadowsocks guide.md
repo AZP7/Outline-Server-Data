@@ -27,17 +27,21 @@ WorkingDirectory=/root
 [Install]
 WantedBy=multi-user.target
 "
-5.modified the config file
 
+5.modified the config file
+--install snap shadowoscks
+
+sudo snap install shadowsocks
+link(https://snapcraft.io/shadowsocks)
 nano /var/snap/shadowsocks/common/shadowsocks.json
 
 paste your config file
 
 6.restart the server 
 
- systemctl daemon-reload
- systemctl restart shadowsocks
- systemctl status shadowsocks
+ sudo systemctl daemon-reload
+ sudo systemctl restart shadowsocks
+ sudo systemctl status shadowsocks
 
 7.Install the  "vnstat" command to check the databandwidth for the server
 

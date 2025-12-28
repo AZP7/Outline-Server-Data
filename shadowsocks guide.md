@@ -4,10 +4,10 @@ apt-get install python3-pip -y
 
 2.enable python .venv
   
-  sudo apt install python3-venv -y
-  python3 -m venv .venv 
-  source .venv/bin/activate
-  install the pip package" pip install git+https://github.com/shadowsocks/shadowsocks.git@master
+ - sudo apt install python3-venv -y
+ - python3 -m venv .venv 
+ - source .venv/bin/activate
+ - install the pip package" pip install git+https://github.com/shadowsocks/shadowsocks.git@master
  "
 3.Create a file at the "/etc/systemd/system/shadowsocks.service"
 

@@ -60,7 +60,7 @@ config = {
     "method": "chacha20-ietf-poly1305"
 }
 # 🔧 Replace with your actual server IP or domain
-SERVER = "ss.quickaccessmm.shop"   # e.g. "167.172.76.216"
+SERVER = "inn.quickaccessmm.shop"   # e.g. "167.172.76.216"
 METHOD = config["method"]
 
 def make_key(method, password, host, port):

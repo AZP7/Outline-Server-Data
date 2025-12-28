@@ -15,7 +15,7 @@ config = {
 
 
 # 🔧 Replace with your actual server IP or domaind
-SERVER = "ss.quickaccessmm.shop"   # e.g. "167.172.76.216"
+SERVER = "inn.quickaccessmm.shop"   # e.g. "167.172.76.216"
 METHOD = config["method"]
 
 def make_key(method, password, host, port):

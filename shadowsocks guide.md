@@ -29,10 +29,12 @@ WantedBy=multi-user.target
 "
 
 5.modified the config file
+
 --install snap shadowoscks
 
 sudo snap install shadowsocks
 link(https://snapcraft.io/shadowsocks)
+
 nano /var/snap/shadowsocks/common/shadowsocks.json
 
 paste your config file
